@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: Service station
+  datasource:
+    url: jdbc:postgresql://localhost:5432/ss
+    username: postgres
+    password: adilet.2005
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: create
+    open-in-view: false
+    defer-datasource-initialization: true
